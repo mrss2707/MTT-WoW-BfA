@@ -13,10 +13,6 @@ MySQL - 5.6.47 : Database - characters
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-DROP DATABASE IF EXISTS `characters`;
-CREATE DATABASE IF NOT EXISTS `characters` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `characters`;
-
 /*Table structure for table `account_data` */
 
 DROP TABLE IF EXISTS `account_data`;

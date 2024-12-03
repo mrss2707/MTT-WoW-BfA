@@ -13,10 +13,6 @@ MySQL - 5.6.47 : Database - auth
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-DROP DATABASE IF EXISTS `auth`;
-CREATE DATABASE IF NOT EXISTS `auth` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `auth`;
-
 /*Table structure for table `account` */
 
 DROP TABLE IF EXISTS `account`;
